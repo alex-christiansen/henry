@@ -241,7 +241,7 @@ class Fetcher:
                     "query.formatted_fields": "-NULL",
                     "history.workspace_id": "production",
                 },
-                limit="5000",
+                limit="-1",
             ),
         )
         data = json.loads(resp)
